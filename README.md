@@ -8,7 +8,16 @@ In this challenge, we're diving into the whole process of creating an image clas
 
 ## Requirements
 
-- You will need to have **python** installed in your virtual environment, or computer.
+- You will need to have **git** installed in your computer, so that you can clone this repository to use the application code prepared for you.
+```
+git clone https://github.com/mttcohack/MTTCoHack-ImageClassification.git
+```
+- You will need to have **python** installed in your computer.
+- You can also use your computer base environment for development, but as a best practice we can also create a python virtual environment. Navigate to your project folder and then execute this code (Be sure to replace {name-of-your-environment} with the name of your virtual environment.)
+```
+python -m venv {name-of-your-environment}
+{name-of-your-environment}/Scripts/Activate #To activate your virtual env
+```
 - You will need to install the python libraries included in the *requirements.txt* file in the virtual environment or computer where you plan on developing the application using the following code.
 
 ```
