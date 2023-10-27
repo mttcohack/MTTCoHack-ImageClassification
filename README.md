@@ -39,8 +39,9 @@ This hack will help you learn:
 ### Challenge 1
 
 - Create a project in Azure AI services to train your custom model for car classfication based on color.
-- Train one model for classifying cars by color and test the model using the test images provided. The training data can be downloaded from [here](https://aistorage7nv29y3.blob.core.windows.net/car-images/car-color.zip).
-- Train another model for classifying cars by the model and test the model using the test images provided. The training data can be downloaded from [here](https://aistorage7nv29y3.blob.core.windows.net/car-images/car-make.zip).
+- Train one model for classifying cars by color and test the model using the test images provided. The training data can be downloaded from [here](https://sakhdavd.blob.core.windows.net/cohack/car-color.zip).
+- Create another project and train another model for classifying cars by the model of the car and test the model using the test images provided. The training data can be downloaded from [here](https://sakhdavd.blob.core.windows.net/cohack/car-make.zip).
+- Test images can be found [here](https://sakhdavd.blob.core.windows.net/cohack/car-test-images.zip).
 - Develop a simple web application to predict images using the models created in the azure service.
 
 #### Resources
@@ -59,7 +60,8 @@ This hack will help you learn:
 
 ### [Optional] Challenge 2
 
-- Train another model which classifies both the color label and the make label using one model.
+- Train another model which classifies both the color label and the make label using one model. The training data can be downloaded from [here](https://sakhdavd.blob.core.windows.net/cohack/car-color-make.zip).
+- You can use the same test [images](https://sakhdavd.blob.core.windows.net/cohack/car-test-images.zip) from challenge 1.
 - Deploy the flask application into Azure App service.
 
 #### Resources
